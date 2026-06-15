@@ -112,6 +112,13 @@ https://learn.microsoft.com/en-us/rest/api/fabric/articles/
   - Authoring skill: `skills/powerbi-report-authoring/SKILL.md` — PBIR/PBIP file mechanics, Desktop reload/screenshot
   - Management skill: `skills/powerbi-report-management/SKILL.md` — Fabric report item CRUD via `az rest`
 
+### Power BI AI Readiness
+- **AI Readiness Fixer**: Scan and improve local PBIP semantic models for Copilot/AI readiness
+  - Agent: `agents/AIReadinessFixer.agent.md` — end-to-end orchestration (backup → scan → fix → report)
+  - Skill: `skills/ai-readiness-fixer/SKILL.md` — full workflow: TMDL scanning, diff, apply, HTML/Excel report
+  - M365 Prompt: `prompt_examples/ai-readiness-copilot-m365.md` — zero-install prompt for M365 Copilot users
+  - Triggers: "check my model", "AI readiness", "prepare for Copilot", "fix model names", "add descriptions"
+
 ### Data Science
 - **Data Agents**: Conversational AI over Fabric data sources
   - Docs: https://learn.microsoft.com/en-us/fabric/data-science/concept-data-agent
